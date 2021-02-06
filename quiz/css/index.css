@@ -1,0 +1,36 @@
+.title {
+text-align: center;
+    margin-top: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+.topics div {
+    display: flex;
+    flex-direction: column;
+}
+.topic {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    border-radius: 25px;
+    color: white;
+    height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 32px;
+    outline: none;
+    border: 5%;
+    border: none;
+    transition-duration: .2s;
+}
+
+.topic:hover {
+    color: rgb(207, 204, 204);
+    font-size: 35px;
+}
+
+.loader {
+    position: relative;
+    text-align: center;
+}
+
